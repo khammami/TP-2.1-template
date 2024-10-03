@@ -1,4 +1,7 @@
-# Travail à faire
+# Travail à faire (Compte Rendu)
+
+> [!WARNING]  
+> Veuillez suivre les instructions détaillées du codelab **[Comment soumettre votre compte rendu](https://codelabs-enetcom.khammami.tn/codelabs/soumettre-compte-rendu/)** pour soumettre votre compte rendu.
 
 ## Créer et exécuter une application
 
@@ -13,56 +16,68 @@ Ouvrez l'application HelloToast que vous avez créée dans une pratique antérie
 
 ### **Question 1**
 
-Quelles modifications sont apportées lorsque vous ajoutez une deuxième activité à votre application en choisissant **File > New > Activity** et un modèle d'activité? Choisissez-en un:
+**Q1.** Quelles modifications sont apportées lorsque vous ajoutez une deuxième activité à votre application en choisissant **File > New > Activity** et un modèle d'activité?:
 
-- [ ] La deuxième activité est ajoutée en tant que classe Java. Vous devez toujours ajouter le fichier de mise en page (layout) XML.
-- [ ] Le deuxième fichier de mise en page XML d'activité est créé et une classe Java ajoutée. Vous devez toujours définir la signature de la classe.
-- [ ] La deuxième activité est ajoutée en tant que classe Java, le fichier de présentation (layout) XML est créé et le fichier `AndroidManifest.xml` est modifié pour déclarer une deuxième activité.
-- [ ] Le deuxième fichier de présentation (layout) XML d'activité est créé et le fichier `AndroidManifest.xml` est modifié pour déclarer une deuxième activité.
+📋 **A1.** Choisissez-en un:
+
+* [ ] **(a)** La deuxième activité est ajoutée en tant que classe Java. Vous devez toujours ajouter le fichier de mise en page (layout) XML.
+* [ ] **(b)** Le deuxième fichier de mise en page XML d'activité est créé et une classe Java ajoutée. Vous devez toujours définir la signature de la classe.
+* [ ] **(c)** La deuxième activité est ajoutée en tant que classe Java, le fichier de présentation (layout) XML est créé et le fichier `AndroidManifest.xml` est modifié pour déclarer une deuxième activité.
+* [ ] **(d)** Le deuxième fichier de présentation (layout) XML d'activité est créé et le fichier `AndroidManifest.xml` est modifié pour déclarer une deuxième activité.
 
 ### **Question 2**
 
-Que se passe-t-il si vous supprimez les éléments `android:parentActivityName` et `<meta-data>` de la deuxième déclaration d'activité du fichier `AndroidManifest.xml`? Choisissez-en un:
+**Q2.** Que se passe-t-il si vous supprimez les éléments `android:parentActivityName` et `<meta-data>` de la deuxième déclaration d'activité du fichier `AndroidManifest.xml`?:
 
-- [ ] La deuxième activité n'apparaît plus lorsque vous essayez de la démarrer avec une intention (`Intent`) explicite.
-- [ ] Le deuxième fichier de mise en page (layout) XML d'activité est supprimé.
-- [ ] Le bouton Back (Précédent) ne fonctionne plus dans la deuxième activité pour renvoyer l'utilisateur à l'activité principale.
-- [ ] Le bouton Up (Haut) de la barre d'applications n'apparaît plus dans la deuxième activité pour renvoyer l'utilisateur à l'activité parent.
+📋 **A2.** Choisissez-en un:
+
+* [ ] **(a)** La deuxième activité n'apparaît plus lorsque vous essayez de la démarrer avec une intention (`Intent`) explicite.
+* [ ] **(b)** Le deuxième fichier de mise en page (layout) XML d'activité est supprimé.
+* [ ] **(c)** Le bouton Back (Précédent) ne fonctionne plus dans la deuxième activité pour renvoyer l'utilisateur à l'activité principale.
+* [ ] **(d)** Le bouton Up (Haut) de la barre d'applications n'apparaît plus dans la deuxième activité pour renvoyer l'utilisateur à l'activité parent.
 
 ### **Question 3**
 
-Quelle méthode de constructeur utilisez-vous pour créer une nouvelle intention (`Intent`) explicite? Choisissez-en un:
+**Q3.** Quelle méthode de constructeur utilisez-vous pour créer une nouvelle intention (`Intent`) explicite?:
 
-- [ ] `new Intent()`
-- [ ] `new Intent(Context context, Class<?> class)`
-- [ ] `new Intent(String action, Uri uri)`
-- [ ] `new Intent(String action)`
+📋 **A3.** Choisissez-en un:
+
+* [ ] **(a)** `new Intent()`
+* [ ] **(b)** `new Intent(Context context, Class<?> class)`
+* [ ] **(c)** `new Intent(String action, Uri uri)`
+* [ ] **(d)** `new Intent(String action)`
 
 ### **Question 4**
 
-Dans l'application HelloToast (du Travail à faire), comment ajoutez-vous la valeur actuelle du comptage à l'intention (`Intent`)? Choisissez-en un:
+**Q4.** Dans l'application HelloToast (du Travail à faire), comment ajoutez-vous la valeur actuelle du comptage à l'intention (`Intent`)?:
 
-- [ ] Comme les données d'intention (`Intent`)
-- [ ] Comme `TEXT_REQUEST` de l'intention (`Intent`)
-- [ ] En tant qu'action d'intention (`Intent`)
-- [ ] Comme extra d'intention (`Intent`)
+📋 **A4.** Choisissez-en un:
+
+* [ ] **(a)** Comme les données d'intention (`Intent`)
+* [ ] **(b)** Comme `TEXT_REQUEST` de l'intention (`Intent`)
+* [ ] **(c)** En tant qu'action d'intention (`Intent`)
+* [ ] **(d)** Comme extra d'intention (`Intent`)
 
 ### **Question 5**
 
-Dans l'application HelloToast (du Travail à faire), comment afficher le nombre actuel dans la deuxième activité "Hello"? Choisissez-en un:
+**Q5.** Dans l'application HelloToast (du Travail à faire), comment afficher le nombre actuel dans la deuxième activité "Hello"?:
 
-- [ ] Obtenez l'intention (`Intent`) avec laquelle l'activité a été lancée.
-- [ ] Obtenez la valeur actuelle du comptage de l'intention.
-- [ ] Mettez à jour le `TextView` pour le comptage.
-- [ ] Tout ce qui précède.
+📋 **A5.** Choisissez-en un:
 
-## Soumettez votre application pour la notation
+* [ ] **(a)** Obtenez l'intention (`Intent`) avec laquelle l'activité a été lancée.
+* [ ] **(b)** Obtenez la valeur actuelle du comptage de l'intention.
+* [ ] **(c)** Mettez à jour le `TextView` pour le comptage.
+* [ ] **(d)** Tout ce qui précède.
 
-Vérifiez que l'application dispose des éléments suivants:
+## Notes
 
-* Il affiche le bouton **Say Hello** au lieu du bouton **Toast**.
-* La deuxième activité commence lorsque le bouton **Say Hello** est enfoncé et affiche le message **"Hello!"** et le nombre actuel de `MainActivity`.
-* Les fichiers de présentation (layout) XML et Java de la deuxième Activité ont été ajoutés au projet.
-* Le fichier de présentation (layout) XML de la deuxième activité contient deux éléments `TextView`, l'un avec la chaîne **"Hello!"** et le second avec le compte.
-* Il inclut une implémentation d'une méthode de gestion des clics pour le bouton **Say Hello** (dans `MainActivity`).
-* Il inclut une implémentation de la méthode `onCreate()` pour la deuxième activité et met à jour le décompte `TextView` avec le décompte de `MainActivity`.
+> [!NOTE]  
+>
+> Vérifiez que l'application dispose des éléments suivants:
+>
+> * Il affiche le bouton **Say Hello** au lieu du bouton **Toast**.
+> * La deuxième activité commence lorsque le bouton **Say Hello** est enfoncé et affiche le message **"Hello!"** et le nombre actuel de `MainActivity`.
+> * Les fichiers de présentation (layout) XML et Java de la deuxième Activité ont été ajoutés au projet.
+> * Le fichier de présentation (layout) XML de la deuxième activité contient deux éléments `TextView`, l'un avec la chaîne **"Hello!"** et le second avec le compte.
+> * Il inclut une implémentation d'une méthode de gestion des clics pour le bouton **Say Hello** (dans `MainActivity`).
+> * Il inclut une implémentation de la méthode `onCreate()` pour la deuxième activité et met à jour le décompte `TextView` avec le décompte de `MainActivity`.
