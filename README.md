@@ -27,7 +27,7 @@ Ouvrez l'application HelloToast que vous avez créée dans une pratique antérie
 
 ### **Question 2**
 
-**Q2.** Que se passe-t-il si vous supprimez les éléments `android:parentActivityName` et `<meta-data>` de la deuxième déclaration d'activité du fichier `AndroidManifest.xml`?:
+**Q2.** Que se passe-t-il si vous supprimez l'élément `android:parentActivityName` de la deuxième déclaration d'activité du fichier `AndroidManifest.xml`?:
 
 📋 **A2.** Choisissez-en un:
 
